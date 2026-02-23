@@ -60,7 +60,7 @@
     const params = new URLSearchParams(window.location.search);
     const userId = params.get('id');
     // သင့်ရဲ့ URL အသစ်ကို ဒီမှာ ထည့်ထားပါတယ်
-    const scriptUrl = 'https://script.google.com/macros/s/AKfycbzghSVnTzEGZ661Pej6Tb1Q-I0zAqF_2yCScm4Wz4Rj3KdzVFgE2CSgWFZQmFGEDwik/exec';
+    const scriptUrl = 'https://script.google.com/macros/s/AKfycbwaGd7111YVVBeAYKzSktVfOAit7DbmF6Xv7Wm0PLBoe-mxmmIWehoaEawbqLOe6cOm/exec';
 
     if (userId) {
         fetch(`${scriptUrl}?id=${userId}`)
@@ -89,4 +89,5 @@
 </script>
 </body>
 </html>
+
 
